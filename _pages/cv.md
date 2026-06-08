@@ -1,12 +1,12 @@
 ---
 layout: cv
 permalink: /cv/
-title: CV
+title: 简历
 nav: true
 nav_order: 5
 cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
-description: The Chinese version and the PDF version will be released soon.
+description: 中文简历
 toc:
   sidebar: left
 ---

@@ -1,102 +1,102 @@
 cv:
-  name: Leiyu Wang(王雷宇)
-  label: AI Researcher
+  name: 王雷宇
+  label: AI研究者
   email: leiyuwang33@gmail.com
-  location: Shanghai, China
+  location: 上海, 中国
   image: ""
-  summary: An AI researcher interested in Embodied Intelligence(specifically, VLA) and the application of VLM/LLM.
+  summary: 人工智能研究者，主要研究方向为具身智能和VLM/LLM的应用
 
   social_networks:
     - network: GitHub
       username: Zuyu3
 
-  address:
+  地址:
     street: 
-    city: Shanghai
+    city: 上海
     region: 
     postalCode: 200240
-    countryCode: China
+    countryCode: 中国
 
   sections:
-    Education:
-      - institution: Shanghai Jiao Tong University
-        location: Shanghghai, China
+    教育背景:
+      - institution: 上海交通大学
+        location: 上海, 中国
         url: https://www.sjtu.edu.cn/
-        area: Computer Science
-        studyType: Master
+        area: 计算机科学与技术
+        studyType: 硕士
         start_date: 2025
         end_date: 2028
         score: ""
         courses: ""
 
-      - institution: Shanghai Innovation institution
-        location: Shanghghai, China
+      - institution: 上海创智学院
+        location: 上海，中国
         url: https://www.sii.edu.cn/
-        area: Embodied Intelligence
-        studyType: Visiting Master
+        area: 具身智能
+        studyType: 访问硕士
         start_date: 2025
         end_date: 2028
         highlights:
-          - Scalable VLA Training leader of the Embodied Intelligence Landmark Project (led by Prof. Cewu Lu)
+          - 具身智能标杆项目（卢策吾教授主持）可扩展VLA训练负责人
 
-      - institution: Nanjing University
-        location: Nanjing, China
+      - institution: 南京大学
+        location: 南京，中国
         url: https://www.nju.edu.cn/
-        area: Brain Science and Artificial Intelligence
-        studyType: Bachelor
+        area: 脑科学与人工智能
+        studyType: 本科
         start_date: 2021
         end_date: 2025
         score: "4.45/5.0"
         courses: ""
         highlights:
-          - rank 2/20 in major
-          - University First-Class Scholarship
-          - Basic Disciplines Special Scholarship
+          - 专业排名2/20
+          - 校一等奖学金
+          - 基础学科专项奖学金
 
-    Experience:
-      - company: Huawei
-        position: HarmonyOS Department Intern
-        location: Nanjing
+    工作经历:
+      - company: 华为
+        position: 鸿蒙开发实习生
+        location: 南京
         start_date: 2024/7
         end_date: 2024/9
-        summary: Researched Lottie's background, mainstream use cases, and the ArkTS framework logic, and produced 10+ wiki knowledge summaries, along with an end-to-end AE -> Lottie animation demo. Developed a parser based on the raw Lottie format to reduce key information extraction from tens of thousands of lines to a few hundred, laying the groundwork for delivering Lottie-like atomic animations.
+        summary: 研究了Lottie的背景、主流使用场景及ArkTS框架逻辑，产出了10余篇Wiki知识总结，并完成了一个从AE到Lottie的端到端动画演示。基于原始Lottie格式开发了解析器，将关键信息提取范围从数万行代码缩减至数百行，为交付类Lottie原子动画奠定了基础。
         highlights:
-          - "Internship performance: Excellent"
+          - "实习评价：优秀"
 
 
-    Publications:
+    发表论文:
       - title: What makes a good order of examples in in-context learning
         authors:
           - Guo, Qi and Wang, Leiyu and Wang, Yidong and Ye, Wei and Zhang, Shikun
         publisher: ACL Findings
         releaseDate: 2024
         url: https://aclanthology.org/2024.findings-acl.884/
-        summary: In-context learning is highly sensitive to the order of few-shot examples, but prior ordering heuristics typically rely on additional in-domain (often unlabeled) data and still miss instance-specific differences. We analyze what makes an example order performant at both the corpus and instance levels, and propose **DEmO**, which adaptively selects a strong order for each test instance without extra data. DEmO filters candidate orders by **label fairness** and then picks the most influential order per instance using a **content-free metric**, achieving strong gains over competitive baselines and generalizing well across settings.
+        summary: 上下文学习对少样本示例的顺序高度敏感，但现有的顺序启发式方法通常依赖额外的域内（往往是无标签）数据，且仍难以捕捉实例间的差异。我们从语料级和实例级两个层面分析了何种示例顺序能带来更优性能，并提出了 **DEmO** 方法——该方法无需额外数据，即可为每个测试实例自适应地选择强顺序。DEmO 首先通过**标签公平性**筛选候选顺序，然后利用一种**无内容度量**为每个实例挑选最具影响力的顺序，在多个强基准上取得了显著提升，并能够良好地泛化至不同设置。
 
-    Skills:
-      - name: Deep Learning & VLA & VLM
-        level: Advanced
+    技能:
+      - name: 深度学习 & 视觉语言动作模型（VLA） & 视觉语言模型（VLM）
+        level: 精通
         icon: fa-solid fa-hashtag
         keywords: Pytorch, VLA, VLM, ML
       - name: ROS
-        level: Familiar 
+        level: 熟悉 
         icon: fa-solid fa-hashtag
         keywords: ros2, rclpy
-      - name: Other Programming Language
-        level: Familiar
+      - name: 其他编程语言
+        level: 熟悉
         icon: fa-solid fa-hashtag
-        keywords: C++, Pytorch C++ Extension, CUDA, Java, JavaScript
+        keywords: C++, Pytorch C++扩展, CUDA, Java, JavaScript
 
-    Interests:
-      - name: VLM/LLM Agent
+    研究兴趣:
+      - name: 视觉语言模型/大语言模型(VLM/LLM)智能体
         icon: fa-solid fa-tag
-        keywords: "Application of VLM/LLM, including Skills, RAG, Efficient Fine-tuning, etc."
+        keywords: "VLM/LLM应用，包括技能(Skills)，知识检索图谱(RAG)，高效微调等"
 
-    Languages:
-      - name: English
-        summary: CET6
-      - name: Chinese
-        summary: Native Language
+    语言能力:
+      - name: 英语
+        summary: 六级
+      - name: 中文
+        summary: 母语
 
     # Certificates:
     #   - name: Machine Learning
@@ -104,11 +104,12 @@ cv:
     #     issuer: Stanford University
     #     icon: fa-solid fa-location-dot
 
-    # Projects:
-    #   - name: Quantum Computing
-    #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-    #     highlights:
-    #       - Quantum Teleportation
-    #       - Quantum Cryptography
-    #     start_date: 2018-01-01
-    #     end_date: 2018-01-01
+    项目:
+      - name: 真机开发经验
+        summary: 具备多种真实机械臂的开发经验，包括SDK再封装、数据采集pipeine、模型推理测试等
+        highlights:
+          - Franka、松灵Piper、智元G1等多种机械臂
+          - Quest遥操独立开发
+          - ROS控制方案重写
+        start_date: 2025-01-01
+        end_date: 2026-06-01

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Released my scholar website! :tada:
+发布中文主页！
