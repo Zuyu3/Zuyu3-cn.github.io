@@ -48,12 +48,7 @@ ninja.data = [{
           section: "News",},{id: "news-论文-syvla-项目主页-已被icml-2026接收为poster-tada",
           title: '论文 SyVLA（项目主页）已被ICML 2026接收为Poster！:tada:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/Zuyu3-cn.github.io/projects/1_project/";
-            },},{id: "projects-真机开发经历",
+          section: "News",},{id: "projects-真机开发经历",
           title: '真机开发经历',
           description: "我在真机上面的一些开发经历和经验",
           section: "Projects",handler: () => {
