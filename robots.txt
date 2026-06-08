@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Zuyu3.github.io//sitemap.xml
+Sitemap: https://zuyu3.github.io/Zuyu3-cn.github.io//sitemap.xml
