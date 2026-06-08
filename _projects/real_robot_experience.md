@@ -2,7 +2,7 @@
 layout: page
 title: 真机开发经历
 description: 我在真机上面的一些开发经历和经验
-img: assets/img/12.jpg
+img: assets/img/real_robot_cover.png
 importance: 10
 category: work
 related_publications: false
@@ -27,7 +27,9 @@ related_publications: false
 更多详细信息将在下面介绍
 
 # 数据采集
-这里主要介绍我在智元机器人上的采集经验。（如果你希望获取apk或技术帮助，请邮件联系）
+这里主要介绍我在智元机器人上的采集经验。（如果你希望获取apk或技术帮助，请邮件联系，**视情况有偿或无偿提供**）
+
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=116713723005061&bvid=BV1KmEg6dE7b&cid=38955910944&p=1" width="800" height="450" frameborder="0" allowfullscreen scrolling="no"></iframe>
 
 智元官方VR遥操售价2w￥，远高于市场价（Pica/Quest单价仅3k-5k￥）。由于成本和预算审核要求，我用**4天**时间自行实现并测试了智元的VR遥操作（基于Quest），控制包**收发频率稳定达到50Hz**。我选择VR遥操的原因是，搭建gello或外骨骼方案需要购买大量电机，成本在1k+/台，随机械臂数量线性增长。而单个VR可以用来遥操大量的机械臂（随同时使用人数增长），对于学术团队更具有性价比。
 
@@ -67,6 +69,9 @@ $$
 主要技术栈包括FastAPI、Uvicorn、Msgpack。仅供个人使用，不适配多人随机并发问题，不做量化和自动路由。
 
 # 真机RECAP复现
+
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=116713823734547&bvid=BV1tyEg6ZEtm&cid=38956631727&p=1" width="800" height="450" frameborder="0" allowfullscreen scrolling="no"></iframe>
+
 $\pi_{0.6}^*$将RECAP算法应用到了VLA模型上，但它直到2026年5月尚未开源，因此我自行复现了算法。
 
 使用松灵Cobot Magic四臂（遥操、运行各2臂）。但官方从硬件层面合并了主从臂的CAN信号，因此我对它做了**硬件和ROS改进，适配双向同步**。
