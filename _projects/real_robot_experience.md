@@ -29,7 +29,7 @@ related_publications: false
 # 数据采集
 这里主要介绍我在智元机器人上的采集经验。（如果你希望获取apk或技术帮助，请邮件联系，**视情况有偿或无偿提供**）
 
-<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=116713723005061&bvid=BV1KmEg6dE7b&cid=38955910944&p=1" width="800" height="450" frameborder="0" allowfullscreen scrolling="no"></iframe>
+<iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=116717531432467&bvid=BV1TRE56qEuE&cid=38971899933&p=1" width="800" height="450" frameborder="0" allowfullscreen scrolling="no"></iframe>
 
 智元官方VR遥操售价2w￥，远高于市场价（Pica/Quest单价仅3k-5k￥）。由于成本和预算审核要求，我用**4天**时间自行实现并测试了智元的VR遥操作（基于Quest），控制包**收发频率稳定达到50Hz**。我选择VR遥操的原因是，搭建gello或外骨骼方案需要购买大量电机，成本在1k+/台，随机械臂数量线性增长。而单个VR可以用来遥操大量的机械臂（随同时使用人数增长），对于学术团队更具有性价比。
 
