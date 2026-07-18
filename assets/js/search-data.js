@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/Zuyu3-cn.github.io/projects/";
           },
-        },{id: "nav-相关仓库",
-          title: "相关仓库",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/Zuyu3-cn.github.io/repositories/";
-          },
         },{id: "nav-简历",
           title: "简历",
           description: "中文简历",
